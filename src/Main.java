@@ -2,6 +2,17 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("======= AUTO ESCOLA =======");
 
+        // Instrutores
+        Instrutor instrutor1 = new Instrutor();
+        instrutor1.nome = "Messi";
+        instrutor1.experiencia = 6;
+        instrutor1.categoria = "Moto";
+
+        Instrutor instrutor2 = new Instrutor();
+        instrutor2.nome = "Neymar";
+        instrutor2.experiencia = 4;
+        instrutor2.categoria = "Carro";
+
         Aluno aluno1 = new Aluno();
 
         System.out.println("\n======= PROCESSO DO ALUNO(A) JONAS =======");
