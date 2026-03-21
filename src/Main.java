@@ -47,5 +47,14 @@ public class Main {
 
         aluno4.cancelarAulaTeorica();
         aluno4.realizarExame();
+
+        // Auto Escola
+        AutoEscola autoEscola = new AutoEscola();
+        autoEscola.adicionarAluno(aluno1);
+        autoEscola.adicionarAluno(aluno2);
+        autoEscola.adicionarAluno(aluno3);
+        autoEscola.adicionarAluno(aluno4);
+
+        autoEscola.exibirResumo();
     }
 }
