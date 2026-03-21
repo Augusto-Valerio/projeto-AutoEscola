@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class Aluno {
     String nome;
     int idade;
@@ -31,6 +33,16 @@ public class Aluno {
     void cancelarAulaPratica() {
         if (aulasPraticas > 0) {
             aulasPraticas--;
+        }
+    }
+
+    void realizarExame() {
+        if (aulasTeoricas >= 5 && aulasPraticas >= 5) {
+            Random random = new Random();
+            aprovado = random.nextBoolean();
+            System.out.println("O aluno(a) " + nome + " possui o total de aulas necessárias e poderá realizar o exame!");
+        } else {
+            System.out.println("O aluno(a) " + nome + " não possui o total de aulas necessárias e não poderá realizar o exame!");
         }
     }
 }
