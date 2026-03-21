@@ -19,6 +19,7 @@ public class Main {
         aluno1.nome = "Jonas";
         aluno1.tipoVeiculo = "Carro";
         aluno1.idade = 20;
+        aluno1.instrutor = instrutor2;
 
         aluno1.agendarAulas(6);
 
@@ -30,6 +31,7 @@ public class Main {
         aluno2.nome = "Vitor Tigre";
         aluno2.tipoVeiculo = "Moto";
         aluno2.idade = 18;
+        aluno2.instrutor = instrutor1;
 
         aluno2.agendarAulas(5);
 
@@ -41,6 +43,7 @@ public class Main {
         aluno3.nome = "Mariana";
         aluno3.tipoVeiculo = "Moto";
         aluno3.idade = 19;
+        aluno3.instrutor = instrutor1;
 
         aluno3.agendarAulas(9);
 
@@ -52,6 +55,7 @@ public class Main {
         System.out.println("\n======= PROCESSO DO ALUNO(A) VALERIO =======");
         aluno4.nome = "Valerio";
         aluno4.tipoVeiculo = "Carro";
+        aluno4.instrutor = instrutor2;
         aluno4.idade = 19;
 
         aluno4.agendarAulas(7);
