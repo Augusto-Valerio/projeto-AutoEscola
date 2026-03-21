@@ -17,6 +17,8 @@ public class AutoEscola {
             System.out.println("Nome: " + a.nome +
                     " | Idade: " + a.idade +
                     " | Aulas Feitas: " + total +
+                    " | Instrutor: " + a.instrutor.nome +
+                    " | Experiência do instrutor: " + a.instrutor.experiencia + " anos - (" + a.instrutor.categoria + ")" +
                     " | " + (a.aulasTeoricas >= 5 && a.aulasPraticas >= 5
                     ? "Status: " + (a.aprovado ? "Aprovado" : "Reprovado")
                     : "Status: Não realizou o exame"));

@@ -8,6 +8,8 @@ public class Aluno {
     int aulasPraticas;
     boolean aprovado;
 
+    Instrutor instrutor;
+
     void agendarAulaTeorica() {
         aulasTeoricas++;
     }
