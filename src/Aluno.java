@@ -9,6 +9,8 @@ public class Aluno {
     boolean aprovado;
 
     Instrutor instrutor;
+    Veiculo veiculo;
+
 
     void agendarAulaTeorica() {
         aulasTeoricas++;
