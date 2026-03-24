@@ -13,6 +13,17 @@ public class Main {
         instrutor2.experiencia = 4;
         instrutor2.categoria = "Carro";
 
+        // Veículos
+        Veiculo veiculo1 = new Veiculo();
+        veiculo1.tipo = "Moto";
+        veiculo1.modelo = "Hornet";
+        veiculo1.placa = "XYZ4567";
+
+        Veiculo veiculo2 = new Veiculo();
+        veiculo2.tipo = "Carro";
+        veiculo2.modelo = "HB20";
+        veiculo2.placa = "LSN4149";
+
         Aluno aluno1 = new Aluno();
 
         System.out.println("\n======= PROCESSO DO ALUNO(A) JONAS =======");
@@ -20,6 +31,7 @@ public class Main {
         aluno1.tipoVeiculo = "Carro";
         aluno1.idade = 20;
         aluno1.instrutor = instrutor2;
+        aluno1.veiculo = veiculo2;
 
         aluno1.agendarAulas(6);
 
@@ -32,6 +44,7 @@ public class Main {
         aluno2.tipoVeiculo = "Moto";
         aluno2.idade = 18;
         aluno2.instrutor = instrutor1;
+        aluno2.veiculo = veiculo1;
 
         aluno2.agendarAulas(5);
 
@@ -44,6 +57,7 @@ public class Main {
         aluno3.tipoVeiculo = "Moto";
         aluno3.idade = 19;
         aluno3.instrutor = instrutor1;
+        aluno3.veiculo = veiculo1;
 
         aluno3.agendarAulas(9);
 
@@ -57,6 +71,7 @@ public class Main {
         aluno4.tipoVeiculo = "Carro";
         aluno4.instrutor = instrutor2;
         aluno4.idade = 19;
+        aluno4.veiculo = veiculo2;
 
         aluno4.agendarAulas(7);
 
