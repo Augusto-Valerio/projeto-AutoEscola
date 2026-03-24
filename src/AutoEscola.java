@@ -17,6 +17,8 @@ public class AutoEscola {
             System.out.println("Nome: " + a.nome +
                     " | Idade: " + a.idade +
                     " | Aulas Feitas: " + total +
+                    " | Veículo a ser utilizado: " + a.veiculo.modelo +
+                    " | Placa do veículo: " + a.veiculo.placa +
                     " | Instrutor: " + a.instrutor.nome +
                     " | Experiência do instrutor: " + a.instrutor.experiencia + " anos - (" + a.instrutor.categoria + ")" +
                     " | " + (a.aulasTeoricas >= 5 && a.aulasPraticas >= 5
